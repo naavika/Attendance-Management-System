@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body>
+    
+    <header>
+        <h1>Attendance Management System</h1>
+    </header>
+
+    
+    <main>
+        
+        <section class="left-content">
+            <h2>Mark Attendance</h2>
+            <form id="attendance-form">
+                <label for="date">Select a Date:</label>
+                <input type="date" id="date" name="date">
+                <button type="submit" id="search-btn">Search</button>
+            </form>
+            <div id="attendance-list">
+               
+                <div class="student-entry">
+                    <span class="student-name">Arya</span>
+                    <select class="attendance-status">
+                        <option value="present">Present</option>
+                        <option value="absent">Absent</option>
+                    </select>
+                </div>
+                
+                <div class="student-entry">
+                    <span class="student-name">Venkat</span>
+                    <select class="attendance-status">
+                        <option value="present">Present</option>
+                        <option value="absent">Absent</option>
+                    </select>
+                </div>
+            </div>
+            <button id="mark-attendance-btn">Mark Attendance</button>
+        </section>
+
+       
+        <section class="right-content">
+            <h2>Fetch Attendance Report</h2>
+            <button id="fetch-report-btn">Fetch Attendance Report</button>
+        </section>
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+

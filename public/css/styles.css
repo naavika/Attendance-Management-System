@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.left-content {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.right-content {
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}

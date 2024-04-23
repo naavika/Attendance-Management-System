@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Form</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Attendance Form</h1>
+
+   
+    <label for="selected-date">Select a Date:</label>
+    <input type="date" id="selected-date">
+    <button id="search-btn">Search</button>
+
+    
+    <div id="student-list">
+        
+        <div class="student-entry">
+            <span class="student-name">Arya</span>
+            <span class="attendance-status present">Present</span>
+        </div>
+        <div class="student-entry">
+            <span class="student-name">Venkat</span>
+            <span class="attendance-status absent">Absent</span>
+        </div>
+        
+    </div>
+
+   
+    <h2>Mark Attendance</h2>
+    <label for="student-name">Name:</label>
+    <input type="text" id="student-name" placeholder="Enter student name">
+    <label for="attendance-status">Attendance:</label>
+    <select id="attendance-status">
+        <option value="present">Present</option>
+        <option value="absent">Absent</option>
+    </select>
+    <button id="mark-attendance-btn">Mark Attendance</button>
+
+   
+    <button id="fetch-report-btn">Fetch Attendance Report</button>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
